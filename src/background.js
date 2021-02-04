@@ -10,7 +10,7 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
 
-let win, percent
+let win
 
 async function createWindow() {
   require('./electron/menu.js')
