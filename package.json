@@ -1,7 +1,14 @@
 {
   "name": "vue-electron-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "一个简单的Electron模板",
   "private": true,
+  "keywords": [
+    "electron",
+    "template"
+  ],
+  "author": "wangdaodao <hi@wangdaodao.com>",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,6 +22,7 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "electron-updater": "^4.3.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"

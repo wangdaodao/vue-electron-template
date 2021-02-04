@@ -48,7 +48,7 @@ module.exports = {
             // 'axios': 'axios'
         }
         let plugins = [
-            
+
         ];
         if (isProduction) {
             // 移除console
@@ -114,6 +114,13 @@ module.exports = {
                 "directories": {
                     "output": "./dist_electron"//输出文件路径
                 },
+                "publish": [
+                    {
+                        "provider": "generic",
+                        "channel": "latest",
+                        "url": "http://10.0.204.61/download/",//更新服务器地址,可为空
+                    }
+                ],
                 "win": {//win相关配置
                     "icon": "./public/app.ico",//图标，当前图标在根目录下，注意这里有两个坑
                     "target": [
