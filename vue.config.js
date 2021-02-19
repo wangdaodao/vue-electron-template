@@ -118,7 +118,7 @@ module.exports = {
                     {
                         "provider": "generic",
                         "channel": "latest",
-                        "url": "http://10.0.204.61/download/",//更新服务器地址,可为空
+                        "url": "http://192.168.199.1/download/",//更新服务器地址,可为空
                     }
                 ],
                 "win": {//win相关配置
